@@ -1,0 +1,4 @@
+find /path/to/files* -mtime +5 -exec rm {} \;
+
+find . -mindepth 1 -mtime +31 -exec rm -rf "{}" \;
+
